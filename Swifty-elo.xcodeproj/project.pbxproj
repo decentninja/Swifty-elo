@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E11BE01F193E2AB90068DD0A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11BE01E193E2AB90068DD0A /* main.swift */; };
+		E1ABECD0193E32FE00967030 /* elo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ABECCF193E32FE00967030 /* elo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		E11BE01B193E2AB90068DD0A /* Swifty-elo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swifty-elo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11BE01E193E2AB90068DD0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E1ABECCF193E32FE00967030 /* elo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = elo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				E11BE01E193E2AB90068DD0A /* main.swift */,
+				E1ABECCF193E32FE00967030 /* elo.swift */,
 			);
 			path = "Swifty-elo";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11BE01F193E2AB90068DD0A /* main.swift in Sources */,
+				E1ABECD0193E32FE00967030 /* elo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +237,7 @@
 				E11BE024193E2AB90068DD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
