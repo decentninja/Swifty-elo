@@ -10,17 +10,12 @@ import Cocoa
 
 class Elo {
     
-    var dontTouchMe: Double = 2000
-    
     var limit: (low: Double, high: Double) = (100, 1000000)
     
     var rating: Double {
-        get {
-            return dontTouchMe
-        }
-        set {
-            dontTouchMe = max(limit.low, newValue)
-            dontTouchMe = min(limit.high, dontTouchMe)
+        didSet {
+            rating = max(limit.low, rating)
+            rating = min(limit.high, rating)
         }
     }
     
